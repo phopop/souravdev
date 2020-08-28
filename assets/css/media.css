@@ -1,0 +1,80 @@
+
+/*Media for viewport 0px or greater*/
+@media screen and (min-width: 0px) {
+    .main-area .banner-area .banner img{
+        height: 15rem;
+    }
+
+    .main-area .categories a{
+        margin: 1rem 0;
+    }
+
+    .main-area .post-area{
+        margin: 0 5%;
+    }
+
+    .main-area .post-area .col-lg-8 .gird{
+        column-count: auto;
+    }
+
+    aside.sidebar .latest-post .new-post .post-image img{
+        width: 18%;
+    }
+
+    aside.sidebar .latest-post .new-post{
+        border-bottom: none;
+    }
+
+    footer.footer-area>.row div{
+        padding-top: 5%;
+    }
+}
+
+/*Media for viewport 567px or greater*/
+@media screen and (min-width: 567px) {
+    .main-area .banner-area .banner img{
+        height: 20rem;
+    }
+
+    aside.sidebar .latest-post .new-post .post-image img{
+
+    }
+
+    .main-area .post-area{
+        margin: 0 10%;
+    }
+
+}
+
+/*Media for viewport 768px or greater*/
+@media screen and (min-width: 768px) {
+    .main-area .post-area .col-lg-8 .gird{
+        column-count: 2;
+    }
+    .main-area .banner-area .banner img{
+        height: 25rem;
+    }
+
+    .main-area .banner-area .banner .banner-title{
+        position: relative;
+        top: 50%;
+    }
+    aside.sidebar .latest-post .new-post .post-image img{
+        width: 112%;
+    }
+
+}
+
+/*Media for viewport 1200px or greater*/
+@media screen and (min-width: 1200px) {
+    .main-area .post-area .col-lg-8 .gird{
+        column-count: 2;
+    }
+    .main-area .banner-area .banner img{
+        height: auto;
+    }
+
+    aside.sidebar .latest-post .new-post .post-image img{
+        width: 88%;
+    }
+}
